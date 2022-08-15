@@ -1,6 +1,5 @@
 # Heart-Disease
 Saving peoples’ lives is a vital topic so, trying to predict early heart disease injuries has a lot of interest. I preferred to work on health care dataset even if it is for learning because it enables me stay connected with real cases that one day I will face. Our problem is about heart disease, zero indicated that person does not have a disease, 1 indicates that person has a disease.
-Data Table:
 ### Rows  303
 ### Columns  13
 ### Duplications   No duplications
