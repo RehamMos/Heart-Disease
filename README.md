@@ -5,9 +5,9 @@ Data Table:
 # Columns  13
 # Duplications   No duplications
 # Null values No Null values
-#Missing values?  No missing value
-#Data is balanced ant not linear, so rbf kernel of SVM will be used. Based on visualizing using seaborn(mentioned in preprocessing section).
-I used SVM, KNN and Logostic regression (LR) with different split(25/75) and (30/70)
+# Missing values?  No missing value
+# Data is balanced ant not linear, so rbf kernel of SVM will be used. Based on visualizing using seaborn(mentioned in preprocessing section).
+# I used SVM, KNN and Logostic regression (LR) with different split(25/75) and (30/70)
 I tested in different cases using different feature selection(wrapper method) forward and backward and without selecting any feature using stratified kfold and without it to determine which case we get high accuracy.
 Recall in our case means quantity of people who algorithm predicted as they don’t have a 
 disease and they actual have a disease. So, minimizing FN in our case is important.
