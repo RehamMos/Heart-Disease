@@ -3,10 +3,10 @@ Saving peoples’ lives is a vital topic so, trying to predict early heart disea
 # Data 
 Rows  303,
 Columns  13,
-Duplications >>  No duplications,
-Null values >> No Null values,
+Duplications? >>  No duplications,
+Null values? >> No Null values,
 Missing values? >> No missing value,
-Data is balanced ant not linear, so rbf kernel of SVM will be used. Based on visualizing using seaborn(mentioned in preprocessing section).
+Data is balanced ant not linear, so rbf kernel of SVM will be used. Based on visualizing using seaborn.
 
 ### I used SVM, KNN and Logostic regression (LR) with different split(25/75) and (30/70)
 ### I tested in different cases using different feature selection(wrapper method) forward and backward and without selecting any feature using stratified kfold and without it to determine which case we get high accuracy and recall.
