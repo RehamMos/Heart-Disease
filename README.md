@@ -13,8 +13,8 @@ Recall in our case means how many people who algorithm predicted as they don’t
 # Results
 |Algorithm |No feature selection|Columns|  Backward columns =6 | forward columns =6|
 |----------|----------------------------|----------------------|-------------------|
-| LR |     |       Recall | Fscore      |    Recall | Fscore   | Recall | Fscore   |
-|    |  0  |      0.76    |  0.79       |     0.76  | 0.77     |   0.78 |    0.77  |
+|          |       Recall | Fscore      |    Recall | Fscore   | Recall | Fscore   |
+| LR |  0  |      0.76    |  0.79       |     0.76  | 0.77     |   0.78 |    0.77  |
 |       1  |      0.88    |    0.85     |     0.82  |0.81      |  0.80  |    0.81  |
 
 I will choose SVM with forward (25/75) results >> because it gives me low FN which it is my target to minimize, highest F score and recall. Because of data size (303 rows and 13 columns) there is a probability that algorithm trained with data like in the test so, test accuracy is higher than training. As happened in SVM (forward, and backward) and KNN(No features selected) splitting 25/75
