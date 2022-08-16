@@ -1,11 +1,10 @@
 # Heart-Disease
 Saving peoples’ lives is a vital topic so, trying to predict early heart disease injuries has a lot of interest. I preferred to work on health care dataset even if it is for learning because it enables me stay connected with real cases that one day I will face. Our problem is about heart disease, zero indicated that person does not have a disease, 1 indicates that person has a disease.
-# Data 
-Rows  303,
-Columns  13,
-Duplications? >>  No duplications,
-Null values? >> No Null values,
-Missing values? >> No missing value,
+# Data Table
+|Rows|Columns|  Duplications | Null values  |  Missing vales |
+-----|-------|---------------|--------------|----------------|
+|303 |  13   |No duplications|No Null values|No missing value|
+-----|-------|---------------|--------------|----------------|
 Data is balanced ant not linear, so rbf kernel of SVM will be used. Based on visualizing using seaborn.
 
 # Models used 
