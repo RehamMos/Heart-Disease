@@ -16,12 +16,12 @@ Recall in our case means how many people who algorithm predicted as they don’t
 |No feature selection Columns=6   |                     |
 |           0                     |    0.76   |  0.79   |          
 |           1                     |     0.88  |  0.85   |
-|-------------------------------------------------------
-|Backward columns =6              |                     |
+|-------------------------------------------------------|
+|Backward columns =6              |    Recall  | Fscore |
 |           0                     |    0.76   |  0.77   |
 |           1                     |    0.82   |  0.81   |
 |-------------------------------------------------------|
-|forward columns =6               |                     |
+|forward columns =6               |  Recall  | Fscore   |
 |           0                     |    0.78   |  0.77   |
 |           1                     |    0.80   |  0.81   |
 
