@@ -53,8 +53,10 @@ Recall in our case means how many people who algorithm predicted as they don’t
 | KNN N=7 |Forward #columns=6   |   0   | 0.80 |  0.80    |
 | KNN N=7 |Forward #columns=6   |   1   | 0.83 |  0.83    |
 
+* Recall in our case means quantity of people who algorithm predicted as they don’t have a disease and they actual have a disease. So, minimizing FN in our case is important.
 
-* I will choose SVM with forward (25/75) results >> because it gives me low FN which it is my target to minimize, highest F score and recall. Because of data size (303 rows and 13 columns) there is a probability that algorithm trained with data like in the test so, test accuracy is higher than training. As happened in SVM (forward, and backward) and KNN(No features selected) splitting 25/75
+* I will choose SVM with forward (25/75) results >> because it gives me low FN which it is my target to minimize, highest F score and recall. 
+Because of data size (303 rows and 13 columns) there is a probability that algorithm trained with data like in the test so, test accuracy is higher than training. As happened in SVM (forward, and backward) and KNN(No features selected) splitting 25/75
 * Splitting data with (30/70) for algorithms (SVM without any feature selection) is a disaster FN & FP(50 & zero) and splitting also (27/75) is a disaster & FP(41 & 35). It is overfitting.
 * Splitting data with (30/70) with different algorithms and with various feature selection ways is not the suitable way to get high F score. (I got high FN & FP).
 * I found there is overfiting as mentioned in previous tables for most of algorithms. After applying Kfold cross validation, no changes happened for the result as it is one of ways to deal with overfitting.
