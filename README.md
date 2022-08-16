@@ -4,7 +4,6 @@ Saving peoples’ lives is a vital topic so, trying to predict early heart disea
 |Rows|Columns|  Duplications | Null values  |  Missing vales |
 -----|-------|---------------|--------------|----------------|
 |303 |  13   |No duplications|No Null values|No missing value|
------|-------|---------------|--------------|----------------|
 Data is balanced ant not linear, so rbf kernel of SVM will be used. Based on visualizing using seaborn.
 
 # Models used 
