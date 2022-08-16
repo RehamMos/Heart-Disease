@@ -2,7 +2,7 @@
 Saving peoples’ lives is a vital topic so, trying to predict early heart disease injuries has a lot of interest. I preferred to work on health care dataset even if it is for learning because it enables me stay connected with real cases that one day I will face. Our problem is about heart disease, zero indicated that person does not have a disease, 1 indicates that person has a disease.
 # Data Table
 |Rows|Columns|  Duplications | Null values  |  Missing vales |
------|-------|---------------|--------------|----------------|
+|----|-------|---------------|--------------|----------------|
 |303 |  13   |No duplications|No Null values|No missing value|
 |Data is balanced ant not linear, so rbf kernel of SVM will be used. Based on visualizing using seaborn|
 
@@ -17,9 +17,6 @@ Recall in our case means how many people who algorithm predicted as they don’t
 |----|----------------------------|----------------------|-------------------|
 |  0 |      0.76    |  0.79       |     0.76  | 0.77     |   0.78 |    0.77  |
 
-
-
-|LR  |  13   |No duplications|No Null values|No missing value|
 |Data is balanced ant not linear, so rbf kernel of SVM will be used. Based on visualizing using seaborn|
 
 I will choose SVM with forward (25/75) results >> because it gives me low FN which it is my target to minimize, highest F score and recall. Because of data size (303 rows and 13 columns) there is a probability that algorithm trained with data like in the test so, test accuracy is higher than training. As happened in SVM (forward, and backward) and KNN(No features selected) splitting 25/75
